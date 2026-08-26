@@ -1,0 +1,34 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # daily at 03:00 UTC
+  workflow_dispatch: {}   # allows manual "Run workflow" trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate cards
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: node scripts/generate-cards.mjs
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/stats-card.svg assets/streak-card.svg
+          git diff --cached --quiet || git commit -m "chore: refresh profile cards"
+          git push

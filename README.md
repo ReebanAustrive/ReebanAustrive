@@ -9,7 +9,7 @@
 ## `~/whoami`
 
 ```
-Aspiring backend developer, building scalable AI applications and
+Full-time backend developer, building scalable AI applications and
 management platforms with Java, Spring Boot, and React.
 
 Currently interning at Fracktal Works — backend + AI integration.
@@ -42,8 +42,8 @@ Currently interning at Fracktal Works — backend + AI integration.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ReebanAustrive&show_icons=true&hide_border=true&bg_color=1e1e2e&title_color=8AADF4&icon_color=8AADF4&text_color=cdd6f4&hide_rank=false" width="49%" />
-<img src="https://streak-stats.demolab.com/?user=ReebanAustrive&hide_border=true&background=1e1e2e&stroke=1e1e2e&ring=8AADF4&fire=8AADF4&currStreakLabel=cdd6f4&sideLabels=cdd6f4&currStreakNum=cdd6f4&sideNums=cdd6f4&dates=6c7086" width="49%" />
+<img src="./assets/stats-card.svg" width="49%" />
+<img src="./assets/streak-card.svg" width="49%" />
 
 </div>
 
