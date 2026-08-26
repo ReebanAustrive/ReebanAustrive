@@ -67,7 +67,7 @@ Currently interning at Fracktal Works — backend + AI integration.
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=ReebanAustrive&theme=algolia&no-frame=true&column=6&margin-w=8&margin-h=8" width="97%" />
+<img src="https://github-profile-trophy.vercel.app/?username=ReebanAustrive&theme=onedark&no-frame=true&no-bg=true&column=6&margin-w=8&margin-h=8" width="97%" />
 
 </div>
 
