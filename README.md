@@ -12,7 +12,7 @@
 
 <br/>
 
-## `[ ~/whoami ]`
+## `who am I?  `
 
 ```
 > Full-time backend developer, building scalable AI applications and
@@ -23,7 +23,7 @@
 
 <br/>
 
-## `[ ~/stack ]`
+## `Stack`
 
 <div align="center">
 
@@ -44,7 +44,7 @@
 
 <br/>
 
-## `[ ~/stats ]`
+## `Stats`
 
 <div align="center">
 
@@ -55,7 +55,7 @@
 
 <br/>
 
-## `[ ~/featured ]`
+## `Featured`
 
 <table>
 <tr>
@@ -90,7 +90,7 @@ Lightweight API for generating and serving QR codes on demand.
 
 <br/>
 
-## `[ ~/notes ]`
+## `Notes`
 
 ```
 > off the clock: chess, MotoGP, and a bit of stoicism —
@@ -100,13 +100,13 @@ Lightweight API for generating and serving QR codes on demand.
 
 <br/>
 
-## `[ ~/connect ]`
+## `Connect`
 
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-05070a?style=for-the-badge&logo=vercel&logoColor=00F5FF)](https://reebanportfolio.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-05070a?style=for-the-badge&logo=linkedin&logoColor=00F5FF)](https://linkedin.com/in/reeban-austrive-11019a254)
-[![Email](https://img.shields.io/badge/EMAIL-05070a?style=for-the-badge&logo=gmail&logoColor=00F5FF)](mailto:reeban.austrive.s76@kalvium.community)
+[![Email](https://img.shields.io/badge/EMAIL-05070a?style=for-the-badge&logo=gmail&logoColor=00F5FF)](mailto:reebanaustrive@gmail.com)
 
 </div>
 
