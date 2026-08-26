@@ -119,25 +119,37 @@ function fmtDateShort(iso) {
 
 function statsCardSVG({ repos, contributions, stars, followers }) {
   return `<svg width="700" height="180" viewBox="0 0 700 180" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono', 'Fira Code', monospace">
-  <rect x="1" y="1" width="698" height="178" rx="12" fill="#1e1e2e" stroke="#313244" stroke-width="1.5"/>
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#0d2e33" stroke-width="0.5"/>
+    </pattern>
+  </defs>
 
-  <text x="28" y="38" fill="#8AADF4" font-size="15" font-weight="700" letter-spacing="0.5">~/github-stats</text>
-  <line x1="28" y1="52" x2="672" y2="52" stroke="#313244" stroke-width="1"/>
+  <rect x="1" y="1" width="698" height="178" rx="10" fill="#05070a"/>
+  <rect x="1" y="1" width="698" height="178" rx="10" fill="url(#grid)" opacity="0.5"/>
+  <rect x="1" y="1" width="698" height="178" rx="10" fill="none" stroke="#00F5FF" stroke-width="1" opacity="0.6" filter="url(#glow)"/>
 
-  <text x="28" y="92" fill="#cdd6f4" font-size="30" font-weight="700">${repos}</text>
-  <text x="28" y="114" fill="#6c7086" font-size="12">public repos</text>
+  <text x="28" y="38" fill="#00F5FF" font-size="15" font-weight="700" letter-spacing="0.5" filter="url(#glow)">[ ~/github-stats ]</text>
+  <line x1="28" y1="52" x2="672" y2="52" stroke="#0d2e33" stroke-width="1"/>
 
-  <text x="205" y="92" fill="#cdd6f4" font-size="30" font-weight="700">${contributions}</text>
-  <text x="205" y="114" fill="#6c7086" font-size="12">contributions (past year)</text>
+  <text x="28" y="92" fill="#e8feff" font-size="30" font-weight="700" filter="url(#glow)">${repos}</text>
+  <text x="28" y="114" fill="#4d8b90" font-size="12">public repos</text>
 
-  <text x="450" y="92" fill="#cdd6f4" font-size="30" font-weight="700">${stars}</text>
-  <text x="450" y="114" fill="#6c7086" font-size="12">stars</text>
+  <text x="205" y="92" fill="#e8feff" font-size="30" font-weight="700" filter="url(#glow)">${contributions}</text>
+  <text x="205" y="114" fill="#4d8b90" font-size="12">contributions (past year)</text>
 
-  <text x="580" y="92" fill="#cdd6f4" font-size="30" font-weight="700">${followers}</text>
-  <text x="580" y="114" fill="#6c7086" font-size="12">followers</text>
+  <text x="450" y="92" fill="#e8feff" font-size="30" font-weight="700" filter="url(#glow)">${stars}</text>
+  <text x="450" y="114" fill="#4d8b90" font-size="12">stars</text>
 
-  <line x1="28" y1="136" x2="672" y2="136" stroke="#313244" stroke-width="1"/>
-  <text x="28" y="160" fill="#6c7086" font-size="11">java · spring boot · python · fastapi · typescript · react</text>
+  <text x="580" y="92" fill="#e8feff" font-size="30" font-weight="700" filter="url(#glow)">${followers}</text>
+  <text x="580" y="114" fill="#4d8b90" font-size="12">followers</text>
+
+  <line x1="28" y1="136" x2="672" y2="136" stroke="#0d2e33" stroke-width="1"/>
+  <text x="28" y="160" fill="#3a6266" font-size="11">java · spring boot · python · fastapi · typescript · react</text>
 </svg>
 `;
 }
@@ -150,29 +162,41 @@ function streakCardSVG({ total, current, currentEndDate, longest, longestStart, 
   const dash = Math.max(pct * circumference, current > 0 ? 8 : 0);
 
   return `<svg width="700" height="180" viewBox="0 0 700 180" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono', 'Fira Code', monospace">
-  <rect x="1" y="1" width="698" height="178" rx="12" fill="#1e1e2e" stroke="#313244" stroke-width="1.5"/>
+  <defs>
+    <filter id="glow2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid2" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#0d2e33" stroke-width="0.5"/>
+    </pattern>
+  </defs>
 
-  <text x="28" y="38" fill="#8AADF4" font-size="15" font-weight="700" letter-spacing="0.5">~/streak</text>
-  <line x1="28" y1="52" x2="672" y2="52" stroke="#313244" stroke-width="1"/>
+  <rect x="1" y="1" width="698" height="178" rx="10" fill="#05070a"/>
+  <rect x="1" y="1" width="698" height="178" rx="10" fill="url(#grid2)" opacity="0.5"/>
+  <rect x="1" y="1" width="698" height="178" rx="10" fill="none" stroke="#00F5FF" stroke-width="1" opacity="0.6" filter="url(#glow2)"/>
+
+  <text x="28" y="38" fill="#00F5FF" font-size="15" font-weight="700" letter-spacing="0.5" filter="url(#glow2)">[ ~/streak ]</text>
+  <line x1="28" y1="52" x2="672" y2="52" stroke="#0d2e33" stroke-width="1"/>
 
   <g text-anchor="middle">
-    <text x="150" y="100" fill="#cdd6f4" font-size="34" font-weight="700">${total}</text>
-    <text x="150" y="124" fill="#6c7086" font-size="12">contributions (past year)</text>
+    <text x="150" y="100" fill="#e8feff" font-size="34" font-weight="700" filter="url(#glow2)">${total}</text>
+    <text x="150" y="124" fill="#4d8b90" font-size="12">contributions (past year)</text>
   </g>
 
   <g text-anchor="middle">
-    <circle cx="350" cy="95" r="34" fill="none" stroke="#313244" stroke-width="4"/>
-    <circle cx="350" cy="95" r="34" fill="none" stroke="#8AADF4" stroke-width="4"
-            stroke-dasharray="${dash} ${circumference}" stroke-linecap="round" transform="rotate(-90 350 95)"/>
-    <text x="350" y="102" fill="#cdd6f4" font-size="22" font-weight="700">${current}</text>
-    <text x="350" y="142" fill="#6c7086" font-size="12">current streak</text>
-    <text x="350" y="158" fill="#45475a" font-size="10">as of ${fmtDateShort(currentEndDate)}</text>
+    <circle cx="350" cy="95" r="34" fill="none" stroke="#0d2e33" stroke-width="4"/>
+    <circle cx="350" cy="95" r="34" fill="none" stroke="#00F5FF" stroke-width="4"
+            stroke-dasharray="${dash} ${circumference}" stroke-linecap="round" transform="rotate(-90 350 95)" filter="url(#glow2)"/>
+    <text x="350" y="102" fill="#e8feff" font-size="22" font-weight="700" filter="url(#glow2)">${current}</text>
+    <text x="350" y="142" fill="#4d8b90" font-size="12">current streak</text>
+    <text x="350" y="158" fill="#3a6266" font-size="10">as of ${fmtDateShort(currentEndDate)}</text>
   </g>
 
   <g text-anchor="middle">
-    <text x="550" y="100" fill="#cdd6f4" font-size="34" font-weight="700">${longest}</text>
-    <text x="550" y="124" fill="#6c7086" font-size="12">longest streak</text>
-    <text x="550" y="142" fill="#45475a" font-size="10">${fmtDate(longestStart)} – ${fmtDate(longestEnd)}</text>
+    <text x="550" y="100" fill="#e8feff" font-size="34" font-weight="700" filter="url(#glow2)">${longest}</text>
+    <text x="550" y="124" fill="#4d8b90" font-size="12">longest streak</text>
+    <text x="550" y="142" fill="#3a6266" font-size="10">${fmtDate(longestStart)} – ${fmtDate(longestEnd)}</text>
   </g>
 </svg>
 `;
