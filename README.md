@@ -9,7 +9,7 @@
 ## `~/whoami`
 
 ```
-Full-time backend developer, building scalable AI applications and
+Aspiring backend developer, building scalable AI applications and
 management platforms with Java, Spring Boot, and React.
 
 Currently interning at Fracktal Works — backend + AI integration.
@@ -43,31 +43,7 @@ Currently interning at Fracktal Works — backend + AI integration.
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=ReebanAustrive&show_icons=true&hide_border=true&bg_color=1e1e2e&title_color=8AADF4&icon_color=8AADF4&text_color=cdd6f4&hide_rank=false" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ReebanAustrive&hide_border=true&background=1e1e2e&stroke=1e1e2e&ring=8AADF4&fire=8AADF4&currStreakLabel=cdd6f4&sideLabels=cdd6f4&currStreakNum=cdd6f4&sideNums=cdd6f4&dates=6c7086" width="49%" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ReebanAustrive&layout=compact&hide_border=true&bg_color=1e1e2e&title_color=8AADF4&text_color=cdd6f4&langs_count=8" width="49%" />
-
-</div>
-
-<br/>
-
-## `~/activity` — last 30 days
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ReebanAustrive&bg_color=1e1e2e&color=8AADF4&line=8AADF4&point=cdd6f4&area=true&area_color=8AADF4&hide_border=true&days=30" width="97%" />
-
-</div>
-
-> Commit / PR / MR activity is pulled live from the graph above — no manual upkeep needed as you keep shipping.
-
-<br/>
-
-## `~/achievements`
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=ReebanAustrive&theme=onedark&no-frame=true&no-bg=true&column=6&margin-w=8&margin-h=8" width="97%" />
+<img src="https://streak-stats.demolab.com/?user=ReebanAustrive&hide_border=true&background=1e1e2e&stroke=1e1e2e&ring=8AADF4&fire=8AADF4&currStreakLabel=cdd6f4&sideLabels=cdd6f4&currStreakNum=cdd6f4&sideNums=cdd6f4&dates=6c7086" width="49%" />
 
 </div>
 
