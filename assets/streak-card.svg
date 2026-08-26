@@ -2,10 +2,7 @@
   <defs>
     <filter id="glow2" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="2.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <pattern id="grid2" width="24" height="24" patternUnits="userSpaceOnUse">
       <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#0d2e33" stroke-width="0.5"/>
@@ -20,23 +17,22 @@
   <line x1="28" y1="52" x2="672" y2="52" stroke="#0d2e33" stroke-width="1"/>
 
   <g text-anchor="middle">
-    <text x="150" y="100" fill="#e8feff" font-size="34" font-weight="700" filter="url(#glow2)">425</text>
-    <text x="150" y="124" fill="#4d8b90" font-size="12">total contributions</text>
-    <text x="150" y="142" fill="#3a6266" font-size="10">Aug 22, 2024 – present</text>
+    <text x="150" y="100" fill="#e8feff" font-size="34" font-weight="700" filter="url(#glow2)">721</text>
+    <text x="150" y="124" fill="#4d8b90" font-size="12">contributions (past year)</text>
   </g>
 
   <g text-anchor="middle">
     <circle cx="350" cy="95" r="34" fill="none" stroke="#0d2e33" stroke-width="4"/>
     <circle cx="350" cy="95" r="34" fill="none" stroke="#00F5FF" stroke-width="4"
-            stroke-dasharray="26 214" stroke-linecap="round" transform="rotate(-90 350 95)" filter="url(#glow2)"/>
-    <text x="350" y="102" fill="#e8feff" font-size="22" font-weight="700" filter="url(#glow2)">1</text>
+            stroke-dasharray="14.266666666666666 214" stroke-linecap="round" transform="rotate(-90 350 95)" filter="url(#glow2)"/>
+    <text x="350" y="102" fill="#e8feff" font-size="22" font-weight="700" filter="url(#glow2)">2</text>
     <text x="350" y="142" fill="#4d8b90" font-size="12">current streak</text>
-    <text x="350" y="158" fill="#3a6266" font-size="10">Aug 26</text>
+    <text x="350" y="158" fill="#3a6266" font-size="10">as of Aug 26</text>
   </g>
 
   <g text-anchor="middle">
     <text x="550" y="100" fill="#e8feff" font-size="34" font-weight="700" filter="url(#glow2)">5</text>
     <text x="550" y="124" fill="#4d8b90" font-size="12">longest streak</text>
-    <text x="550" y="142" fill="#3a6266" font-size="10">Jan 27 – Jan 31, 2025</text>
+    <text x="550" y="142" fill="#3a6266" font-size="10">Dec 8, 2025 – Dec 12, 2025</text>
   </g>
 </svg>

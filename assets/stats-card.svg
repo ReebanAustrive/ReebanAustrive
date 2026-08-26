@@ -2,10 +2,7 @@
   <defs>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="2.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
       <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#0d2e33" stroke-width="0.5"/>
@@ -19,13 +16,13 @@
   <text x="28" y="38" fill="#00F5FF" font-size="15" font-weight="700" letter-spacing="0.5" filter="url(#glow)">[ ~/github-stats ]</text>
   <line x1="28" y1="52" x2="672" y2="52" stroke="#0d2e33" stroke-width="1"/>
 
-  <text x="28" y="92" fill="#e8feff" font-size="30" font-weight="700" filter="url(#glow)">67</text>
+  <text x="28" y="92" fill="#e8feff" font-size="30" font-weight="700" filter="url(#glow)">57</text>
   <text x="28" y="114" fill="#4d8b90" font-size="12">public repos</text>
 
-  <text x="205" y="92" fill="#e8feff" font-size="30" font-weight="700" filter="url(#glow)">713</text>
+  <text x="205" y="92" fill="#e8feff" font-size="30" font-weight="700" filter="url(#glow)">721</text>
   <text x="205" y="114" fill="#4d8b90" font-size="12">contributions (past year)</text>
 
-  <text x="450" y="92" fill="#e8feff" font-size="30" font-weight="700" filter="url(#glow)">5</text>
+  <text x="450" y="92" fill="#e8feff" font-size="30" font-weight="700" filter="url(#glow)">1</text>
   <text x="450" y="114" fill="#4d8b90" font-size="12">stars</text>
 
   <text x="580" y="92" fill="#e8feff" font-size="30" font-weight="700" filter="url(#glow)">1</text>
