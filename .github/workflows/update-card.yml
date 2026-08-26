@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "0 3 * * *"   # daily at 03:00 UTC
   workflow_dispatch: {}   # allows manual "Run workflow" trigger
+  push:
+    branches: [main]      # change to "master" if that's your default branch
+    paths-ignore:
+      - "assets/**"       # avoids retriggering on the bot's own commits
 
 permissions:
   contents: write
