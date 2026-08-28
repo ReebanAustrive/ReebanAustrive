@@ -17,17 +17,17 @@
   <line x1="28" y1="52" x2="672" y2="52" stroke="#0d2e33" stroke-width="1"/>
 
   <g text-anchor="middle">
-    <text x="150" y="100" fill="#e8feff" font-size="34" font-weight="700" filter="url(#glow2)">728</text>
+    <text x="150" y="100" fill="#e8feff" font-size="34" font-weight="700" filter="url(#glow2)">730</text>
     <text x="150" y="124" fill="#4d8b90" font-size="12">contributions (past year)</text>
   </g>
 
   <g text-anchor="middle">
     <circle cx="350" cy="95" r="34" fill="none" stroke="#0d2e33" stroke-width="4"/>
     <circle cx="350" cy="95" r="34" fill="none" stroke="#00F5FF" stroke-width="4"
-            stroke-dasharray="21.400000000000002 214" stroke-linecap="round" transform="rotate(-90 350 95)" filter="url(#glow2)"/>
-    <text x="350" y="102" fill="#e8feff" font-size="22" font-weight="700" filter="url(#glow2)">3</text>
+            stroke-dasharray="28.53333333333333 214" stroke-linecap="round" transform="rotate(-90 350 95)" filter="url(#glow2)"/>
+    <text x="350" y="102" fill="#e8feff" font-size="22" font-weight="700" filter="url(#glow2)">4</text>
     <text x="350" y="142" fill="#4d8b90" font-size="12">current streak</text>
-    <text x="350" y="158" fill="#3a6266" font-size="10">as of Aug 27</text>
+    <text x="350" y="158" fill="#3a6266" font-size="10">as of Aug 28</text>
   </g>
 
   <g text-anchor="middle">
