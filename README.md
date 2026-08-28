@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2500&pause=900&color=00F5FF&center=true&vCenter=true&width=600&lines=%3E+Hi%2C+I'm+Reeban_;%3E+Backend+Developer_;%3E+Java+%C2%B7+Spring+Boot+%C2%B7+React+%C2%B7+AI_;%3E+Building+scalable+backend+systems_" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2500&pause=900&color=00F5FF&center=true&vCenter=true&width=600&lines=%3E+Hi%2C+I'm+Reeban_;%3E+Backend+Developer_;%3E+Java+%C2%B7+Spring+Boot+%C2%B7+Linux+%C2%B7+AI_;%3E+Building+scalable+backend+systems_" alt="Typing SVG" />
 
 <br/>
 
@@ -16,7 +16,7 @@
 
 ```
 > Full-time backend developer, building scalable AI applications and
-  management platforms with Java, Spring Boot, and React.
+  management platforms with Java, Spring Boot, and Linux.
 
 > Currently interning at Fracktal Works — backend + AI integration.
 ```
@@ -32,7 +32,7 @@
 ![Python](https://img.shields.io/badge/PYTHON-05070a?style=for-the-badge&logo=python&logoColor=00F5FF)
 ![FastAPI](https://img.shields.io/badge/FASTAPI-05070a?style=for-the-badge&logo=fastapi&logoColor=00F5FF)
 ![TypeScript](https://img.shields.io/badge/TYPESCRIPT-05070a?style=for-the-badge&logo=typescript&logoColor=00F5FF)
-![React](https://img.shields.io/badge/REACT-05070a?style=for-the-badge&logo=react&logoColor=00F5FF)
+![Linux](https://img.shields.io/badge/Linux-05070a?style=for-the-badge&logo=Linux&logoColor=00F5FF)
 ![C#](https://img.shields.io/badge/C%23-05070a?style=for-the-badge&logo=csharp&logoColor=00F5FF)
 ![PostgreSQL](https://img.shields.io/badge/POSTGRESQL-05070a?style=for-the-badge&logo=postgresql&logoColor=00F5FF)
 ![Supabase](https://img.shields.io/badge/SUPABASE-05070a?style=for-the-badge&logo=supabase&logoColor=00F5FF)
