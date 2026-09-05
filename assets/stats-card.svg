@@ -25,7 +25,7 @@
   <text x="450" y="92" fill="#e8feff" font-size="30" font-weight="700" filter="url(#glow)">3</text>
   <text x="450" y="114" fill="#4d8b90" font-size="12">stars</text>
 
-  <text x="580" y="92" fill="#e8feff" font-size="30" font-weight="700" filter="url(#glow)">3</text>
+  <text x="580" y="92" fill="#e8feff" font-size="30" font-weight="700" filter="url(#glow)">4</text>
   <text x="580" y="114" fill="#4d8b90" font-size="12">followers</text>
 
   <line x1="28" y1="136" x2="672" y2="136" stroke="#0d2e33" stroke-width="1"/>
